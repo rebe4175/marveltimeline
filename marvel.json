@@ -1,0 +1,123 @@
+[
+  {
+    "id": "captainamerica",
+    "title": "Captain America: The First Avenger",
+    "year": "2011"
+  },
+
+  {
+    "id": "ironman",
+    "title": "Iron Man",
+    "year": "2010"
+  },
+
+  {
+    "id": "theincrediblehulk",
+    "title": "The Incredible Hulk",
+    "year": "2011"
+  },
+  {
+    "id": "ironmantwo",
+    "title": "Iron Man 2",
+    "year": "2011"
+  },
+  {
+    "id": "thor",
+    "title": "Thor",
+    "year": "2011"
+  },
+  {
+    "id": "marvelone",
+    "title": "Marvel: The Avengers",
+    "year": "2012"
+  },
+  {
+    "id": "ironmanthree",
+    "title": "Iron Man 3",
+    "year": "2013"
+  },
+
+  {
+    "id": "thorthedarkworld",
+    "title": "Thor: The Dark World",
+    "year": "2013"
+  },
+
+  {
+    "id": "captainamericatwo",
+    "title": "Captain America: The Winter Soldier",
+    "year": "2014"
+  },
+
+  {
+    "id": "guardiansofthegalaxy",
+    "title": "Guardians of the Galaxy",
+    "year": "2014"
+  },
+
+  {
+    "id": "guardiansofthegalaxytwo",
+    "title": "Guardians of the Galaxy 2",
+    "year": "2017"
+  },
+  {
+    "id": "avengersageofultron",
+    "title": "Avengers: Age of Ultron",
+    "year": "2015"
+  },
+  {
+    "id": "antman",
+    "title": "Ant Man",
+    "year": "2015"
+  },
+  {
+    "id": "captainamericathree",
+    "title": "Captain America: Civil War",
+    "year": "2016"
+  },
+
+  {
+    "id": "blackpanther",
+    "title": "Black Panther",
+    "year": "2018"
+  },
+
+  {
+    "id": "doctorstrange",
+    "title": "Doctor Strange",
+    "year": "2016"
+  },
+  {
+    "id": "spidermanhomecoming",
+    "title": "Spiderman: Homecoming",
+    "year": "2017"
+  },
+  {
+    "id": "thorragnarok",
+    "title": "Thor: Ragnarok",
+    "year": "2017"
+  },
+
+  {
+    "id": "antmantwo",
+    "title": "Ant-man and the Wasp",
+    "year": "2018"
+  },
+
+  {
+    "id": "avengersinfinitywar",
+    "title": "Avenger: Infinity War",
+    "year": "2018"
+  },
+
+  {
+    "id": "captainmarvel",
+    "title": "Avengers Endgame",
+    "year": "2019"
+  },
+  {
+    "id": "avengersendgame",
+    "title": "Captain Marvel",
+    "year": "2019"
+  }
+]

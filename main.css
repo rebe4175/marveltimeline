@@ -1,0 +1,63 @@
+.cls-1,
+.cls-3,
+.cls-4 {
+  fill: none;
+}
+#svg_timeline svg {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+.svgplaceholder {
+  position: absolute;
+  z-index: 2;
+}
+
+[data-field="title"],
+[data-field="year"] {
+  position: relative;
+  top: 4vh;
+  left: 0.5vw;
+  font-size: 0.8em;
+  font-family: sans-serif;
+}
+
+[data-svgplaceholder="marvelone"],
+[data-svgplaceholder="captainmarvel"],
+[data-svgplaceholder="avengersageofultron"],
+[data-svgplaceholder="avengersinfinitywar"] {
+  font-size: 2em;
+  position: absolute;
+  padding-left: 3vw;
+  padding-top: 3vh;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5 {
+  stroke-miterlimit: 10;
+}
+
+.cls-1,
+.cls-2 {
+  stroke-width: 10px;
+}
+
+.cls-2 {
+  fill: #fff7e9;
+}
+
+.cls-3,
+.cls-5 {
+  stroke-width: 6px;
+}
+
+.cls-4 {
+  stroke-width: 5px;
+}
+
+.cls-5 {
+  fill: #fff;
+}
