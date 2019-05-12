@@ -11,6 +11,10 @@ function init() {
         .querySelector("#svg_timeline")
         .insertAdjacentHTML("afterbegin", svgData);
 
+      document.querySelectorAll(".svgplaceholder").forEach(button => {
+        button.addEventListener("click", addAnimation);
+      });
+
       loadJSON();
 
       resizeCircle();
@@ -18,7 +22,26 @@ function init() {
 }
 
 function addAnimation() {
-  console.log("something");
+  // container
+
+  const svgTimeline = document.querySelector("#svg_timeline");
+
+  let btns = svgTimeline.getElementsByClassName("svgplaceholder");
+
+  // Loop through the buttons and also adds the active class to the clicked button
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      let current = document.getElementsByClassName("active");
+
+      // if theres no current active
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+
+      // add class active to clicked
+      this.className += " active";
+    });
+  }
 }
 
 function loadJSON() {
